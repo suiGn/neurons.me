@@ -1,0 +1,27 @@
+{
+  "name": "rpage",
+  "description": "Highly responsive pagination for Bootstrap.",
+  "keywords": [
+    "js",
+    "responsive",
+    "bootstrap",
+    "plugin"
+  ],
+  "homepage": "http://auxiliary.github.io/rpage/",
+  "main": [
+    "responsive-paginate.js"
+  ],
+  "dependencies": {
+    "bootstrap": ">= 3.0.0",
+    "jquery": ">= 1.9.1"
+  },
+  "_release": "035b9c90c0",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "035b9c90c0352eff487796dfdfe20b8f501eecbe"
+  },
+  "_source": "https://github.com/auxiliary/rpage.git",
+  "_target": "*",
+  "_originalSource": "https://github.com/auxiliary/rpage.git"
+}

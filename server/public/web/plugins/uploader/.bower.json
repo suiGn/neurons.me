@@ -1,0 +1,14 @@
+{
+  "name": "uploader",
+  "homepage": "https://github.com/danielm/uploader",
+  "version": "0.1.0",
+  "_release": "0.1.0",
+  "_resolution": {
+    "type": "version",
+    "tag": "0.1.0",
+    "commit": "57d86c8986ef84862deff26b9514c8035e663bd6"
+  },
+  "_source": "https://github.com/danielm/uploader.git",
+  "_target": "~0.1.0",
+  "_originalSource": "https://github.com/danielm/uploader.git"
+}

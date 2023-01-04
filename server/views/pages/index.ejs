@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>neurons.me</title>
+    <%- include('../partials/header.ejs') %>
+  </head>
+  <body>
+    <!-- Main Sidebar start-->
+    <aside class="main-sidebar pinned">
+      <div class="profile">
+		  <img src="img/brain_nat.png" alt="neurons.me" class="avatar">
+        <div class="text-muted" style="margin-top: 21px;">neurons.me</div>
+      </div>
+      <!-- Nav tabs-->
+   
+      <!-- Tab panes-->
+      <div class="tab-content nav-sidebar-content">
+        <div id="menu" role="tabpanel" class="tab-pane fade in active">
+
+          <ul class="list-unstyled navigation mb-0">
+            <li><a href="index.html" class="bubble">
+              <i class="ti-home"></i> Home<span class="badge bg-danger">3</span></a></li>
+              </ul>
+
+<ul class="list-unstyled navigation mb-0">
+   <% fileSystem.forEach((item, index) => { %>
+    <li class="panel">
+      <a role="button" data-toggle="collapse" data-parent=".navigation" href="#collapse<%= index %>" aria-expanded="false" aria-controls="collapse<%= index %>" class="collapsed">
+        <i class="ti-palette"></i> <%= item.name %></a>
+          <ul id="collapse<%= index %>" class="list-unstyled collapse">
+            <% item.files.forEach((file) => { %>
+            <li><a href="<%= file %>"><%= file %></a></li>
+             <% }) %>
+             <% item.subdirectories.forEach((subDir) => { %>
+              <li><a href="<%= subDir %>"><%= subDir %></a></li>
+               <% }) %>
+           </ul>
+
+          
+            
+           
+
+           
+                
+    </li>
+   <% }) %>
+</ul>
+
+          
+
+          <div class="header">Server Status</div>
+          <ul class="list-unstyled pl-15 pr-15">
+            <li class="mb-20">
+              <div class="block clearfix mb-10"><span class="pull-left fs-12 text-muted">CPU Used</span><span class="pull-right label label-outline label-warning">65%</span></div>
+              <div class="progress progress-xs mb-0">
+                <div role="progressbar" data-transitiongoal="65" class="progress-bar progress-bar-warning"></div>
+              </div>
+            </li>
+            <li class="mb-20">
+              <div class="block clearfix mb-10"><span class="pull-left fs-12 text-muted">Bandwidth</span><span class="pull-right label label-outline label-danger">80%</span></div>
+              <div class="progress progress-xs mb-0">
+                <div role="progressbar" data-transitiongoal="80" class="progress-bar progress-bar-danger"></div>
+              </div>
+            </li>
+          </ul>
+        </div>
+        
+        
+    </aside>
+    <!-- Main Sidebar end-->
+	
+	
+    <!-- Header start-->
+    <header>
+      <div class="brand pull-left"></div>
+	  <a href="javascript:;" role="button" class="sidebar-toggle pull-left icon"><i class="ti-menu text-muted"></i></a>
+      <ul class="notification-bar list-inline pull-right">
+       <li class="hidden-xs">
+		   <a href="javascript:;" role="button" class="icon fullscreen-toggle">
+			   <i class="ti-fullscreen text-muted"></i>
+		   </a>
+	   </li>
+            </ul>
+    </header>
+    <!-- Header end-->
+	
+	
+    <!-- Content Here start-->
+    <section class="wrapper">
+	 <style>
+		 .center {
+		 text-align: center;
+		 margin-top: 16%;
+		 }
+		 </style>
+  <div data-ix="scroll-color" class="banner wf-section">
+  <div class="center">
+    <img src="img/brain_nat.png" width="144" sizes="(max-width: 991px) 100vw, 284px" srcset="img/brain_nat.png 500w, img/brain_nat.png 1248w" alt="neurons art and technology" class="image-2">
+  </div>
+</div>
+  <div class="center" style="margin-top: 5%;">
+    <h4 class="heading-2" style="margin-top: 1;">
+        <font style="color: rgb(234, 229, 229);">Creating and Connecting Dots.</font>
+      </h4>
+      </span>
+  </div>
+    </section>
+    <!-- Content Here end-->
+   
+   
+   <%- include('../partials/widgets/layout_settings.ejs') %>
+   <%- include('../partials/footer.ejs') %>
+   
+   
+  
+   
+	
+	
+  </body>
+</html>

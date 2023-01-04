@@ -1,8 +1,0 @@
-{
-  "name": "Neurons.me",
-  "description": "Barebones.",
-  "repository": "https://github.com/suiGn/neurons.me",
-  "logo": "",
-  "keywords": ["node", "express", "heroku"],
-  "image": "heroku/nodejs"
-}

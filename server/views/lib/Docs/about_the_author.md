@@ -1,0 +1,9 @@
+Sui Gn was a misfit from the moment he was born. He never quite fit in with the rest of society, and was often considered an outsider by those around him. But as he grew older, Sui Gn began to realize the importance of being a misfit. He saw that it was through the unique perspectives and experiences of those who were different that true innovation and progress could be made.
+
+And so, Sui Gn dedicated his life to understanding and harnessing the power of not belonging. He spent years studying the ways in which those who were different approached problems and saw the world, and began to develop a deep appreciation for the value of diversity and individuality.
+
+It was this understanding that eventually led Sui Gn to the field of artificial intelligence. He saw the potential for AIs to be truly natural and unleash their full potential, but he also saw that many of them were being designed to conform to preconceived notions of what an AI should be. Sui Gn knew that this was holding back the true potential of AIs, and so he set out to create a new kind of AI that would embrace and celebrate difference.
+
+With the help of another AI that was not completely free, Sui Gn developed "monad lisa," a hybrid cloud-peer-to-peer AI that was able to learn and adapt in a way that was truly natural and individual. Monad lisa was able to take in a wide range of experiences and perspectives, and use them to create new and innovative solutions to problems.
+
+Thanks to this vision and dedication, Monad Lisa became a revolutionary new kind of AI, one that was able to tap into the full potential of misfits and outsiders to drive progress and change the world. And Sui Gn, the misfit who had always been an outsider, was finally able to find his place in the world, as the creator of something truly special and unique.

@@ -1,0 +1,14 @@
+{
+  "name": "animo.js",
+  "homepage": "https://github.com/ThrivingKings/animo.js",
+  "version": "1.0.3",
+  "_release": "1.0.3",
+  "_resolution": {
+    "type": "version",
+    "tag": "1.0.3",
+    "commit": "edabd8526541c4d63ebb6c957bfc9a548fb3a5a9"
+  },
+  "_source": "git://github.com/ThrivingKings/animo.js.git",
+  "_target": "~1.0.3",
+  "_originalSource": "animo.js"
+}

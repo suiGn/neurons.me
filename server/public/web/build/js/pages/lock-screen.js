@@ -1,0 +1,1 @@
+$(document).ready(function(){$("#esp-profile").easyPieChart({barColor:"#3498db",trackColor:"#ecf0f1",scaleColor:!1,scaleLength:0,lineCap:"round",lineWidth:10,size:140,animate:{duration:2e3,enabled:!0}})});
