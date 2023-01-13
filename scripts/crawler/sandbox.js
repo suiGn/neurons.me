@@ -1,0 +1,27 @@
+//create for a website structure with its tags, links, title, meta description, meta keywords, h1, h2, h3, h4, h5, h6, and the root domain
+    var website = {
+        url: url,
+        links: links,
+        title: title,
+        metaDescription: metaDescription,
+        metaKeywords: metaKeywords,
+        h1: h1,
+        h2: h2,
+        h3: h3,
+        h4: h4,
+        h5: h5,
+        h6: h6,
+        p: p,
+        textarea: textarea,
+        text: text,
+        imgs: imgs,
+        pdfs: pdfs,
+        docs: docs,
+        videos: videos,
+        audios: audios,
+        bolds: bolds,
+        italics: italics,
+        scripts: scripts,
+        styles: styles,
+        rootDomain: rootDomain
+    };
