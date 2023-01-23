@@ -1,0 +1,43 @@
+{
+  "name": "Neurons.me",
+  "version": "0.3.0",
+  "description": "Neurons Libraries and docs.",
+  "engines": {
+    "node": "x.x"
+  },
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node test.js",
+    "build:analyze": "webpack --analyze",
+    "dev": "next dev"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "@fontsource/roboto": "^4.5.8",
+    "@mui/icons-material": "^5.11.0",
+    "@mui/material": "^5.11.5",
+    "babel-loader": "^9.1.2",
+    "express": "^4.15.2",
+    "next": "^13.1.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "webpack": "^5.75.0"
+  },
+  "devDependencies": {
+    "got": "^11.3.0",
+    "tape": "^4.7.0",
+    "webpack-bundle-analyzer": "^4.7.0",
+    "webpack-cli": "^5.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/suiGn/neurons.me"
+  },
+  "keywords": [
+    "node",
+    "neurons"
+  ],
+  "license": "MIT"
+}

@@ -1,15 +1,16 @@
 const fs = require('fs');
 
-// Obtener el listado de todos los directorios dentro de "views/lib"
-const directories = fs.readdirSync('./views/lib', { withFileTypes: true })
+const fileSystem = (dirPath) => {
+// Obtener el listado de todos los directorios dentro del dir especificado.
+const directories = fs.readdirSync(dirPath, { withFileTypes: true })
   .filter(dirent => dirent.isDirectory())
   .map(dirent => dirent.name);
-// Inicializar el objeto "fileSystem" que contendrá el listado de directorios y archivos .md
-const fileSystem = [];
+// Inicializar el objeto "dirTree" que contendrá el listado de directorios y archivos .md
+const dirTree = [];
 // Recorrer cada directorio
 directories.forEach((directory) => {
   // Obtener el listado de todos los archivos .md y directorios dentro del directorio actual
-  const contents = fs.readdirSync(`./views/lib/${directory}`, { withFileTypes: true });
+  const contents = fs.readdirSync(`${dirPath}/${directory}`, { withFileTypes: true });
   // Filtrar el listado para incluir solo archivos .md y directorios
   const files = contents
     .filter(item => item.isFile())
@@ -20,11 +21,15 @@ directories.forEach((directory) => {
     .map(subdir => subdir.name);
 
   // Agregar un elemento al objeto "dir" con el nombre del directorio y el listado de archivos .md y subdirectorios
-  fileSystem.push({
+  dirTree.push({
     name: directory,
     files,
     subdirectories,
   });
 });
+// Retornar el objeto "fileSystem"
+return dirTree;
+}
+
 
 module.exports = fileSystem;

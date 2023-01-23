@@ -1,0 +1,56 @@
+ <!-- Main Sidebar start-->
+ <aside class="main-sidebar pinned">
+    <div class="profile">
+        <img src="img/brain_nat.png" alt="neurons.me" class="avatar">
+      <div class="text-muted" style="margin-top: 21px;">neurons.me</div>
+    </div>
+    <!-- Nav tabs-->
+ 
+    <!-- Tab panes-->
+    <div class="tab-content nav-sidebar-content">
+      <div id="menu" role="tabpanel" class="tab-pane fade in active">
+
+        <ul class="list-unstyled navigation mb-0">
+          <li><a href="index.html" class="bubble">
+            <i class="ti-home"></i> Home<span class="badge bg-danger">3</span></a></li>
+            </ul>
+
+<ul class="list-unstyled navigation mb-0">
+ <% fileSystem.forEach((item, index) => { %>
+  <li class="panel">
+    <a role="button" data-toggle="collapse" data-parent=".navigation" href="#collapse<%= index %>" aria-expanded="false" aria-controls="collapse<%= index %>" class="collapsed">
+      <i class="ti-palette"></i> <%= item.name %></a>
+        <ul id="collapse<%= index %>" class="list-unstyled collapse">
+          <% item.files.forEach((file) => { %>
+          <li><a href="<%= file %>"><%= file %></a></li>
+           <% }) %>
+           <% item.subdirectories.forEach((subDir) => { %>
+            <li><a href="<%= subDir %>"><%= subDir %></a></li>
+             <% }) %>
+         </ul>                
+  </li>
+ <% }) %>
+</ul>
+
+        
+
+        <div class="header">Server Status</div>
+        <ul class="list-unstyled pl-15 pr-15">
+          <li class="mb-20">
+            <div class="block clearfix mb-10"><span class="pull-left fs-12 text-muted">CPU Used</span><span class="pull-right label label-outline label-warning">65%</span></div>
+            <div class="progress progress-xs mb-0">
+              <div role="progressbar" data-transitiongoal="65" class="progress-bar progress-bar-warning"></div>
+            </div>
+          </li>
+          <li class="mb-20">
+            <div class="block clearfix mb-10"><span class="pull-left fs-12 text-muted">Bandwidth</span><span class="pull-right label label-outline label-danger">80%</span></div>
+            <div class="progress progress-xs mb-0">
+              <div role="progressbar" data-transitiongoal="80" class="progress-bar progress-bar-danger"></div>
+            </div>
+          </li>
+        </ul>
+      </div>
+      
+      
+  </aside>
+  <!-- Main Sidebar end-->
