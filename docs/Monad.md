@@ -1,5 +1,8 @@
+---
+title: 'monads'
+date: '2023-04-20'
+---
 ## Monad
-
 Monad is a tool that enables running machine learning algorithms on personal devices using PlaidML, providing an alternative to cloud-based solutions. It is designed to work seamlessly with the neurons.me package and can be installed through it.
 
 To use Monad, simply include it as a dependency in your project:

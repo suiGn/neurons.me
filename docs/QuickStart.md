@@ -1,3 +1,8 @@
+---
+title: 'quickStart'
+date: '2023-04-27'
+---
+
 # QuickStart Neurons.me
 
 Welcome to neurons.me, a collection of shared resources for machine learning, networking, and more! This guide will show you how to get started using the neurons.me npm package and its shared resources.
