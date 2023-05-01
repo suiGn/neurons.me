@@ -81,13 +81,6 @@ export default function Home({ allPostsData }) {
         </a>
       </div>
 
-
-
-
-
-
-
-
     </main>
   )
 }
