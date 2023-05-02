@@ -1,30 +1,16 @@
 {
-  "name": "dev",
-  "version": "0.1.0",
-  "private": true,
+  "name": "neurons.me",
+  "version": "3.2.2",
+  "description": "*.neurons.me servers",
+  "main": "index.js",
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "test": "test"
   },
-  "dependencies": {
-    "@emotion/react": "^11.10.6",
-    "@emotion/styled": "^11.10.6",
-    "@mui/material": "^5.12.2",
-    "autoprefixer": "10.4.14",
-    "eslint": "8.38.0",
-    "eslint-config-next": "13.3.0",
-    "date-fns": "^2.29.3",
-    "gray-matter": "^4.0.3",
-    "next": "latest",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
-    "remark": "^14.0.2",
-    "remark-html": "^15.0.2",
-    "fs": "^0.0.1-security",
-    "path": "^0.12.7",
-    "postcss": "8.4.23",
-    "tailwindcss": "3.3.1"
-  }
+  "keywords": [
+    "neurons.me",
+    "init",
+    "sourceCode"
+  ],
+  "author": "suiGn",
+  "license": "MIT"
 }
