@@ -1,16 +1,21 @@
 {
   "name": "neurons.me",
-  "version": "3.2.2",
-  "description": "*.neurons.me servers",
+  "version": "1.0.0",
+  "description": "Shared dependencies for neurons.me",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "neurons.me",
-    "init",
-    "sourceCode"
+    "neurons"
   ],
-  "author": "suiGn",
-  "license": "MIT"
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "netget": "https://github.com/your-username/netget.git",
+    "mLearning": "https://github.com/your-username/mlearning.git",
+    "monads": "https://github.com/your-username/monads.git",
+    "theVault": "https://github.com/your-username/thevault.git",
+    "cleaker": "https://github.com/your-username/cleaker.git"
+  }
 }
