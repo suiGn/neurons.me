@@ -1,0 +1,25 @@
+{
+  "name": "monadlisa",
+  "version": "2.0.3",
+  "description": "Functional programming.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "identities and relationships."
+  ],
+  "author": "Sui Gn",
+  "license": "MIT - Displayed on neurons.me npm package root directory under LICENSE",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/suiGn/monads"
+  },
+  "bugs": {
+    "url": "https://github.com/suiGn/monads/issues"
+  },
+  "homepage": "https://github.com/suiGn/monads#readme",
+  "dependencies": {
+   
+  }
+}

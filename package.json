@@ -1,29 +1,18 @@
 {
   "name": "neurons.me",
-  "version": "2.0.1",
-  "description": "Shared dependencies for neurons.me - Working towards first stable version on July 15 2023.",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [
-    "neurons"
-  ],
-  "author": "Your Name",
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/suiGn/neurons.me"
-  },
-  "bugs": {
-    "url": "https://github.com/suiGn/neurons.me/issues"
-  },
-  "homepage": "https://github.com/suiGn/neurons.me/issues#readme",
+  "version": "2.0.2",
+  "description": "A dynamic modulator system - Shared dependencies for neurons.me",
   "dependencies": {
-    "netget": "https://github.com/suiGn/netget",
-    "mLearning": "https://github.com/suiGn/mLearning",
-    "monads": "https://github.com/suiGn/Monads",
-    "theVault": "https://github.com/suiGn/theVault",
-    "cleaker": "https://github.com/suiGn/cleaker"
-  }
+    "netget": "2.0.3",
+    "@sui.gn/mlearning": "2.0.3",
+    "monadlisa": "2.0.3",
+    "thevault": "2.0.3",
+    "cleaker": "2.0.3",
+    "neurons.me": "2.0.1"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "SuiGn",
+  "license": "MIT"
 }

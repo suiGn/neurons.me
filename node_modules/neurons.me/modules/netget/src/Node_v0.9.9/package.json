@@ -1,0 +1,19 @@
+{
+  "name": "netget_node",
+  "version": "1.0.0",
+  "description": "NetGet client side.",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "start": "node script.js"
+  },
+  "keywords": [
+    "monads"
+  ],
+  "author": "suiGn",
+  "license": "MIT",
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "ws": "^8.7.0"
+  }
+}

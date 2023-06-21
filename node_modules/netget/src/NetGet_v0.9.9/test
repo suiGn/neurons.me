@@ -1,0 +1,74 @@
+/**                                     o       o                               
+     	  _____ ___ ___  ___   ___ _  _____ _____ 
+\ \    / / __| _ ) __|/ _ \ / __| |/ / __|_   _|
+ \ \/\/ /| _|| _ \__ \ (_) | (__| ' <| _|  | |  
+  \_/\_/ |___|___/___/\___/ \___|_|\_\___| |_| 
+				        Websocket managment. **/
+// Importing the required modules
+const WebSocketServer = require('ws');
+const PROTO = "NG22"; 
+/*******************..............
+* WEBSOCKET METHODS and Functions*
+*******************..............*/ 
+var wsm = require('./methods/WebSocketMethods.js'); 
+  var clients = [ ];
+  const wss = new WebSocketServer.Server({ server: server })
+
+
+
+/*******************
+* WEBSOCKET INIT  *
+*******************/
+wss.on('request', function(request) {
+let publicHASH = method.randomHASH;
+let privateHASH = method.randomHASH;
+    
+//Connection Request
+ if (!method.originIsAllowed(request.origin)) {
+    request.reject();
+    console.log((new Date()) + ' Connection from origin ' + request.origin + ' rejected.');
+    return;
+     }
+        
+var connection = request.accept('echo-protocol', request.origin);
+var index = clients.push(connection) - 1; //client index to remove them on 'close' event 
+console.log(
+(new Date()) + 
+" Connection accepted. Peer:" + connection.remoteAddress +  
+" Online Clients: " + clients.length);
+        
+    //HANDSHAKE ACKNOWLEDGMENT
+    connection.sendUTF(JSON.stringify({ 
+        proto: PROTO,
+        publicHASH: publicHASH, 
+        type:'init0'
+        }));
+        
+/**********************
+* INCOMMING MESSAGES  *
+***********************/      
+connection.on('message', function(message) {
+if (message.type === 'utf8') {                
+DATA = JSON.parse(message.utf8Data); //parse to json
+
+    /************************
+	* DATA HANDLER SECTION. *
+	*************************/
+    if (DATA.proto === PROTO && DATA.type === "init0_Res"){ 
+    console.log(DATA);
+    }
+
+    //END IF UTF8 
+    }else if (message.type === 'binary') {
+    console.log('Received Binary Message of ' + message.binaryData.length + ' bytes');
+        connection.sendBytes(message.binaryData);
+            }
+        });
+        
+        
+        connection.on('close', function(reasonCode, description) {
+            console.log((new Date()) + ' Peer ' + connection.remoteAddress + ' disconnected.');
+            clients.splice(index, 1);// remove user from the list of connected clients
+        });
+    });
+    

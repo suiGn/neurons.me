@@ -1,16 +1,24 @@
-neurons.me provides a suite of machine learning, data manipulation, and utility tools designed to help developers build intelligent applications. The package is composed of several shared resources that can be installed independently or together, depending on your needs plus additional services developed using this technology.
-
-Installing neurons.me using Javascript.
+# Installing neurons.me using Javascript.
 
 ```bash
 npm install neurons.me
 ```
 
-Import the package in your node.js file:
+If you want to install modules like the cleaker and netget through the neurons.me package, you can do so by:
 
 ```js
 const neurons = require('neurons.me');
+const { cleaker, mLearning, netget } = neurons;
+
+// Use the functionalities of the netget module
+netget.listen(3000);
+netget.connect('localhost', 3000);
+
+// Use the functionalities of the cleaker module
+// ... (add your code here)
 ```
+
+
 
 In your package.json file is a list of the modules as dependencies:
 
