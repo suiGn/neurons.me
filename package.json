@@ -1,17 +1,19 @@
 {
   "name": "neurons.me",
-  "version": "2.0.3",
+  "version": "2.3.4",
   "description": "A dynamic modulator system - Shared dependencies for neurons.me",
   "dependencies": {
-    "netget": "^2.0.0",
-    "@sui.gn/mlearning": "^2.0.0",
-    "monadlisa": "^2.0.0",
-    "thevault": "^2.0.0",
-    "cleaker": "^2.0.0"
+    "netget": "^2.1.6",
+    "@sui.gn/mlearning": "^2.1.4",
+    "monadlisa": "^2.1.1",
+    "thevault": "^2.1.0",
+    "cleaker": "^2.1.0",
+    "@sui.gn/haiku": "^1.2.2"
   },
   "scripts": {
     "start": "node index.js"
   },
+  "keywords": ["Machine Learning", "Neural Networks", "DeepLearning", "neurons.me"],
   "author": "SuiGn",
   "license": "MIT"
 }
