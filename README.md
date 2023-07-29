@@ -1,5 +1,6 @@
 
-![logo](https://github.com/suiGn/neurons.me/assets/9565222/414a7a2f-4d1f-4b24-b94c-89d3b168e6d3)
+<img src="https://github.com/suiGn/neurons.me/assets/9565222/414a7a2f-4d1f-4b24-b94c-89d3b168e6d3" alt="SVG Image" width="123" height="123" style="width: 123px; height: 123px;">
+
 
 # Neurons.me
 
