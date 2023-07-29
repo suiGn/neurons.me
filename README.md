@@ -1,6 +1,5 @@
 
-
-<img src="https://lh6.googleusercontent.com/zrxxCsMLO10Fkph-oepA3XTYXFA6gpf6mAkRFyxG4mILAQknvD8MgEgUTJRxQJpuNdeaVpBs0nC6GzehsuukCAfNHJl-IKJgQRskZkW0zD5g5hQQvqub5zRVBvOznMB4gQ=w1280" alt="SVG Image" width="123" height="123" style="width123px; height:123px;">
+![logo](https://github.com/suiGn/neurons.me/assets/9565222/414a7a2f-4d1f-4b24-b94c-89d3b168e6d3)
 
 # Neurons.me
 
