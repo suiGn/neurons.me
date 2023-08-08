@@ -1,4 +1,5 @@
-const Module = require('./Module'); // adjust the path to point to the correct file
+//the NeuralNetworkClass.js
+const Module = require('neurons.me/src/Modules');
 class NeuralNetwork {
   constructor() {
     this.ID = NeuralNetwork.incrementNetworkID(); // Generate unique ID for each neural network
@@ -6,6 +7,8 @@ class NeuralNetwork {
     this.neurons3DMap = new Map(); // Map to hold neurons in the 3D structure
     this.modules = {}; // Object to hold the individual modules for the NeuralNetwork
     NeuralNetwork.map.set(this.ID, this); // Add this neural network to the map
+    this.isTraining = false; // Initial state
+    this.epochCount = 0; // Initial count
   }
 //-----------------------------------------
 //-----------------------------------------
@@ -21,11 +24,27 @@ class NeuralNetwork {
   getModule(name) {
     return this.modules[name]; // Method to get a module from the NeuralNetwork
   }
+  // Method to add a Modules Pack to the NeuralNetwork
+  addPack(pack) {
+    for (const moduleName in pack.modules) {
+      const module = pack.modules[moduleName];
+      this.addModule(moduleName, module);
+    }
+  }
 //-----------------------------------------
 //-----------------------------------------
 //Running the Network ---------------------
 //-----------------------------------------
 //-----------------------------------------
+train() {
+  this.isTraining = true;
+  // Training logic...
+  this.epochCount++;
+}
+
+pause() {
+  this.isTraining = false;
+}
   forwardPropagation(input) {
 // Propagate the input forward through the network
 // This needs to be adapted to your specific network architecture and activation functions
@@ -45,15 +64,7 @@ backwardPropagation(output, target) {
         }
         return outputError;
     }
-train(input, target) {
-// Train the network for a single input-output pair
-// This needs to be adapted to your specific network architecture and learning algorithm
-// The code below is a placeholder and likely won't work for your needs
-      for(let i = 0; i < this.epochs; i++) {
-          let output = this.forwardPropagation(input);
-          this.backwardPropagation(output, target);
-        }
-    }
+
 //-----------------------------------------
 //-----------------------------------------
 //ACTIVATION FUNCTIONS  
@@ -108,10 +119,6 @@ train(input, target) {
   }
 
 
-
-
-
-
   //SETTING UP THE NETWORK COORDINATION.
     static incrementNetworkID() {
         // Initialize networkID if it doesn't exist yet
@@ -121,6 +128,33 @@ train(input, target) {
         // Increment the networkID and return it
         return ++this.ID;
     }
+    serialize() {
+      return {
+        ID: this.ID,
+        layers: this.layers.map(layer => layer.serialize()), // Assuming layers have a serialize method
+        modules: this.modules, // Assuming modules can be serialized as-is
+        neurons3DMap: Array.from(this.neurons3DMap.entries()).map(([x, yzMap]) => ({
+          x,
+          yzMap: Array.from(yzMap.entries()).map(([y, zMap]) => ({
+            y,
+            zMap: Array.from(zMap.entries())
+          }))
+        }))
+        // Add other properties you want to serialize here
+      };
+    }
+
+    static deserialize(data) {
+      const neuralNetwork = new NeuralNetwork();
+      neuralNetwork.ID = data.ID;
+      neuralNetwork.layers = data.layers.map(layerData => Layer.deserialize(layerData)); // Assuming Layer has a deserialize method
+      // Add other properties you want to deserialize here
+      // ...
+    
+      return neuralNetwork;
+    }
+    
+  
 }
 
 NeuralNetwork.map = new Map(); // Initialize the map to hold all networks

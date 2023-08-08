@@ -1,17 +1,30 @@
 
-<img src="https://github.com/suiGn/neurons.me/assets/9565222/414a7a2f-4d1f-4b24-b94c-89d3b168e6d3" alt="SVG Image" width="123" height="123" style="width: 123px; height: 123px;">
 
+<img src="./src/logo.svg" alt="SVG Image" width="123" height="123" style="width123px; height:123px;">
+
+
+
+Welcome to **neurons.me**, a modular framework for creating robust, decentralized networks of smart nodes, or "neurons". 
+This package enables the building of complex distributed systems.
+
+### Conceptual Flow:
+
+- [ ] Set up your context with [this.me.](https://www.npmjs.com/package/this.me)
+- [ ] Create a neural network using [neurons.me](https://www.neurons.me).
+- [ ] Define the data you'd like your neural network to recognize or process with [this.](https://www.neurons.me/this) modules.
+- [ ] Use [this.be](https://www.npmjs.com/package/this.be) to maintain a state or context, - watching over the [PixelGrid](https://www.npmjs.com/package/this.pixel) and any other states you define for example.
+- [ ] Define desired status and handlers, [be.this](https://www.npmjs.com/package/be.this).
+- [ ] Keep [i.mlearning](https://www.npmjs.com/package/i.mlearning).
 
 # Neurons.me
-
-Neurons.me is a JavaScript module for creating and managing artificial neurons, neural networks, and layers. It allows you to create neurons with custom weights, biases, and activation functions, add them to layers, and organize those layers into neural networks.
+neurons.me is a JavaScript module for creating and managing artificial neurons, neural networks, and layers. It allows you to create neurons with custom weights, biases, and activation functions, add them to layers, and organize those layers into neural networks.
 
 ### Installing
 
 To install neurons.me, use the following command:
 
 ```js
-npm install neurons.me
+npm i neurons.me
 ```
 
 ### Using Neurons.me
@@ -21,6 +34,74 @@ To use neurons.me in your project, you first need to require the module:
 ```js
 const neurons = require('neurons.me');
 ```
+
+I highly recommend you `npm i this.me`.
+
+# Neural Network Creation with neurons.me 💪🧠🚀
+
+This README provides a demonstration of how to use the neurons.me library to **create a neural network with 10 layers, each containing 10 neurons.** We'll define the neurons with specific **weights, biases, and activation functions.**
+
+This code will print details of each neuron, layer, and the entire neural network to the console. It will provide insights into the structure and components of the neural network, including neurons' weights, biases, activation functions, and any other properties defined in your `Neuron` class.
+
+Remember to ensure that all the classes and functions (`Neuron`, `Layer`, `createNeuron`, etc.) are correctly implemented and imported in line with the usage in this code snippet.
+
+## Installation
+
+Ensure that the neurons.me library is installed in your project by running the following command:
+
+```js
+npm i neurons.me
+```
+
+```js
+//demo.js
+const { Neuron, Layer, createNeuron } = require('neurons.me');
+
+let neuronOptions = {
+  weights: [0.5, 0.3, 0.2], // Example weights
+  bias: 0.1,
+  activationFunction: x => x * 2, // Example activation function
+};
+
+let layers = [];
+for (let i = 0; i < 10; i++) {
+  let layer = new Layer();
+  for (let j = 0; j < 10; j++) {
+    let neuron = createNeuron({ options: neuronOptions });
+    layer.addNeurons(neuron);
+    console.log(`Neuron ${j} in Layer ${i}: `, neuron); // Log each neuron
+  }
+  layers.push(layer);
+}
+
+const NeuralNetwork = require('neurons.me/src/NeuralNetworkClass');
+let neuralNetwork = new NeuralNetwork();
+layers.forEach(layer => neuralNetwork.addLayer(layer));
+
+console.log("Neural Network Structure: ", neuralNetwork); // Log the entire neural network
+
+// Optionally, log individual layers and neurons
+neuralNetwork.layers.forEach((layer, index) => {
+  console.log(`Layer ${index}:`, layer);
+  layer.neurons.forEach((neuron, neuronIndex) => {
+    console.log(`  Neuron ${neuronIndex}:`, neuron);
+  });
+});
+
+```
+
+## Description
+
+- `neuronOptions`: Specifies the properties of the neurons, such as weights, bias, and activation function.
+- The outer loop iterates over the layers, creating a new layer at each iteration.
+- The inner loop iterates over the neurons within a layer, creating and adding them to the current layer.
+- The neural network is constructed by adding each layer.
+
+The console logs will provide details of each neuron, layer, and the entire neural network.
+
+
+
+That's it! Feel free to modify the code to suit your specific requirements, such as changing the number of layers, the number of neurons in each layer, or the properties of the neurons.
 
 ## Approach:
 
@@ -75,17 +156,13 @@ Key Takeaways:
 ## Adding Layers to a Neural Network:
 
 ```js
-javascriptCopy code
 const neurons = require('neurons.me');
-
 // Create a neural network
 const network = new neurons.NeuralNetwork();
-
 // Create layers
 const layer1 = new neurons.Layer();
 const layer2 = new neurons.Layer();
 const layer3 = new neurons.Layer();
-
 // Add layers to the neural network
 network.addLayer(layer1);
 network.addLayer(layer2);
@@ -95,17 +172,13 @@ network.addLayer(layer3);
 ## Adding Neurons to a Layer:
 
 ```js
-javascriptCopy code
 const neurons = require('neurons.me');
-
 // Create a layer
 const layer = new neurons.Layer();
-
 // Create neurons
 const neuron1 = new neurons.Neuron();
 const neuron2 = new neurons.Neuron();
 const neuron3 = new neurons.Neuron();
-
 // Add neurons to the layer
 layer.addNeuron(neuron1);
 layer.addNeuron(neuron2);
@@ -117,20 +190,16 @@ layer.addNeuron(neuron3);
 ```js
 javascriptCopy code
 const neurons = require('neurons.me');
-
 // Create a neural network
 const network = new neurons.NeuralNetwork();
-
 // Create layers
 const layer1 = new neurons.Layer();
 const layer2 = new neurons.Layer();
 const layer3 = new neurons.Layer();
-
 // Add layers to the neural network
 network.addLayer(layer1);
 network.addLayer(layer2);
 network.addLayer(layer3);
-
 // Iterate over layers
 network.getLayers().forEach((layer, index) => {
   console.log(`Layer ${index + 1}:`);
@@ -143,20 +212,16 @@ network.getLayers().forEach((layer, index) => {
 ```js
 javascriptCopy code
 const neurons = require('neurons.me');
-
 // Create a layer
 const layer = new neurons.Layer();
-
 // Create neurons
 const neuron1 = new neurons.Neuron();
 const neuron2 = new neurons.Neuron();
 const neuron3 = new neurons.Neuron();
-
 // Add neurons to the layer
 layer.addNeuron(neuron1);
 layer.addNeuron(neuron2);
 layer.addNeuron(neuron3);
-
 // Iterate over neurons
 layer.getNeurons().forEach((neuron, id) => {
   console.log(`Neuron ${id}:`);
