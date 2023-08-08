@@ -8,7 +8,7 @@ This package enables the building of complex distributed systems.
 - [ ] Set up your context with [this.me.](https://www.npmjs.com/package/this.me)
 - [ ] Create a neural network using [neurons.me](https://www.neurons.me).
 - [ ] Define the data you'd like your neural network to recognize or process with [this.](https://www.neurons.me/this) modules.
-- [ ] Use [this.be](https://www.npmjs.com/package/this.be) to maintain a state or context, - watching over the [PixelGrid](https://www.npmjs.com/package/this.pixel) and any other states you define for example.
+- [ ] Use [this.be](https://www.npmjs.com/package/this.be) to maintain a state or context, - watching over [This](https://www.neurons.me/this) and any other states you define for example.
 - [ ] Define desired status and handlers, [be.this](https://www.npmjs.com/package/be.this).
 - [ ] Keep [i.mlearning](https://www.npmjs.com/package/i.mlearning).
 
