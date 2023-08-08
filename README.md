@@ -1,8 +1,4 @@
-
-
 <img src="./src/logo.svg" alt="SVG Image" width="123" height="123" style="width123px; height:123px;">
-
-
 
 Welcome to **neurons.me**, a modular framework for creating robust, decentralized networks of smart nodes, or "neurons". 
 This package enables the building of complex distributed systems.
