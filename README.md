@@ -12,43 +12,42 @@ This package enables the building of complex distributed systems.
 - [ ] Define desired status and handlers, [be.this](https://www.npmjs.com/package/be.this).
 - [ ] Keep [i.mlearning](https://www.npmjs.com/package/i.mlearning).
 
-# Neurons.me
-neurons.me is a JavaScript module for creating and managing artificial neurons, neural networks, and layers. It allows you to create neurons with custom weights, biases, and activation functions, add them to layers, and organize those layers into neural networks.
+## Introduction to Neurons.me
+
+With `neurons.me`, you can craft and govern artificial neurons, neural networks, and layers in JavaScript. Customize neurons with bespoke weights, biases, and activation functions; organize them into layers; and orchestrate these layers into comprehensive neural networks.
 
 ### Installing
-
 To install neurons.me, use the following command:
 
-```js
+```bash
 npm i neurons.me
 ```
 
 ### Using Neurons.me
-
 To use neurons.me in your project, you first need to require the module:
-
 ```js
 const neurons = require('neurons.me');
 ```
-
 I highly recommend you `npm i this.me`.
 
-# Neural Network Creation with neurons.me 💪🧠🚀
+[this.me](https://www.npmjs.com/package/this.me)
 
+Redefining the web paradigm, THIS.ME centralizes the user. Cryptographic proofs replace conventional databases, pivoting towards a user-centric approach.
+
+Transition into this approach demands a fresh mindset in terms of development, deployment, and education
+
+# Neural Network Creation with neurons.me 💪🧠🚀
 This README provides a demonstration of how to use the neurons.me library to **create a neural network with 10 layers, each containing 10 neurons.** We'll define the neurons with specific **weights, biases, and activation functions.**
 
 This code will print details of each neuron, layer, and the entire neural network to the console. It will provide insights into the structure and components of the neural network, including neurons' weights, biases, activation functions, and any other properties defined in your `Neuron` class.
 
 Remember to ensure that all the classes and functions (`Neuron`, `Layer`, `createNeuron`, etc.) are correctly implemented and imported in line with the usage in this code snippet.
 
-## Installation
-
+## Setup
 Ensure that the neurons.me library is installed in your project by running the following command:
-
 ```js
 npm i neurons.me
 ```
-
 ```js
 //demo.js
 const { Neuron, Layer, createNeuron } = require('neurons.me');
@@ -87,7 +86,6 @@ neuralNetwork.layers.forEach((layer, index) => {
 ```
 
 ## Description
-
 - `neuronOptions`: Specifies the properties of the neurons, such as weights, bias, and activation function.
 - The outer loop iterates over the layers, creating a new layer at each iteration.
 - The inner loop iterates over the neurons within a layer, creating and adding them to the current layer.
@@ -95,12 +93,9 @@ neuralNetwork.layers.forEach((layer, index) => {
 
 The console logs will provide details of each neuron, layer, and the entire neural network.
 
-
-
 That's it! Feel free to modify the code to suit your specific requirements, such as changing the number of layers, the number of neurons in each layer, or the properties of the neurons.
 
 ## Approach:
-
 - The neurons.me library provides classes for creating neurons, layers, and neural networks in Node.js.
 - Neurons are created using the `createNeuron` function provided by the library. You can create neurons with different options such as custom weights, bias, activation function, or even load pre-defined modules.
 - Layers are created using the `Layer` class. A layer holds a collection of neurons.
@@ -109,7 +104,6 @@ That's it! Feel free to modify the code to suit your specific requirements, such
 ## Usage:
 
 1. Import the `neurons.me` library: 
-
    ```js
    let neurons = require('neurons.me');
    ```
@@ -135,7 +129,6 @@ That's it! Feel free to modify the code to suit your specific requirements, such
 7. Add layers to the neural network using the `addLayer` method of the neural network.
 
 ## Key Points:
-
 - Neurons are created individually using `new neurons.createNeuron()` and can have different options or configurations.
 - Layers are created using `new neurons.Layer()`, and each layer can hold multiple neurons.
 - Neural networks are created using `new neurons.NeuralNetwork()`, and you can add layers to the neural network using the `addLayer` method.
@@ -227,7 +220,7 @@ layer.getNeurons().forEach((neuron, id) => {
 
 These examples demonstrate how to add layers to a neural network and neurons to a layer using the Neurons.me library. You can customize the number of layers and neurons according to your specific requirements. Additionally, you can perform iterations and modifications on the layers and neurons to achieve the desired network architecture and behavior.
 
-Modules
+### **Modules**
 
 Once a module is loaded into a neuron, all of the module's properties and methods are available to that neuron, and can be accessed using the `getModule` method:
 
@@ -253,6 +246,47 @@ We're also interested in understanding how our package is being used. If you're 
 
 Please note that your privacy is very important to us. Any information you provide will be kept confidential and will be used solely to help us improve our package.
 
-**Happy Coding!**
+# THIS Sandbox DEMO Playground
+Welcome to the THIS.ME Playground, where the entire THIS.ME suite comes together with NEURONS.ME to provide a rich development and execution environment for your AI adventures.
+## SANDBOX Quick Start
+### 1. Clone the Repository
+```bash
+git clone https://github.com/suiGn/sandbox.git
+```
+### 2. Navigate to the Project Directory
+```bash
+cd .me
+```
+### 3. Install Dependencies
+You can use either Yarn or npm to install the necessary dependencies.
+Using Yarn:
+```bash
+yarn install 
+```
+Using npm:
+```bash
+npm install
+```
+### 4. Launch the Application
+```
+npx electron index.js
+```
+ This model turns the traditional web model on its head. Users no longer depend on centralized authorities for identity or data management. They hold the keys (literally) to their identity and data. Services become more user-centric, providing services based on cryptographic proofs rather than centralized databases.
 
+  While this approach offers many benefits, including enhanced privacy and user sovereignty, it's still nascent and requires a paradigm shift in development, deployment, and user education.
+Side note:
+ I'd sooner recode the Old and New Testaments, heck, throw in the Qabala too, in ASCII, before willingly plunging into the dull abyss of server-side user session management. Why swim in those murky waters when I can bask in the cryptographic labyrinth? Ditching the monotony of password management, I decided to champion a world where every individual becomes the keeper of their digital realms. Centralized authorities? More like relics of a bygone era. Here, you don't just own your identity; you seal it with cryptographic brilliance, untouched and ungoverned by any other. Crafting this cryptographic symphony may seem daunting, but compared to the tedium of server management? 
+
+**POC || GTFO** 
+
+## Contributing
+If you have suggestions or issues, please open an issue. We encourage contributions from the community.
+## License & Policies
+- **License**: MIT License (see LICENSE for details).
+- **Privacy Policy**: Respects user privacy; no collection/storage of personal data.
+- **Terms of Usage**: Use responsibly. No guarantees/warranties provided. [Terms](https://www.neurons.me/terms-of-use) | [Privacy](https://www.neurons.me/privacy-policy)
+
+**Happy Coding!**
 Neurons.me offers a flexible and intuitive way to create and manage artificial neurons, layers, and neural networks. We hope you find it useful in your machine learning and artificial intelligence projects. Happy coding!
+
+<img src="./src/logo.svg" alt="SVG Image" width="123" height="123" style="width123px; height:123px;">

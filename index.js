@@ -4,8 +4,8 @@ const path = require('path');
 const fs = require('fs');
 //const thisFilePath = path.resolve(__dirname, 'index.js');
 //const readline = require('readline');
-const scripts = require('./scripts');
-const shell = require('./shell');
+const scripts = require('neurons.me/scripts');
+const shell = require('neurons.me/shell');
 //クラス
 const Neuron = require('neurons.me/src/theNeuronClass');
 const Layer = require('neurons.me/src/LayerClass');
