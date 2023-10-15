@@ -1,5 +1,5 @@
 const { exec } = require('child_process');
-const index = require('./index');
+const index = require('../../index');
 const Neuron = require('neurons.me/src/theNeuronClass');
 const Layer = require('neurons.me/src/LayerClass');
 const NeuralNetwork = require('neurons.me/src/NeuralNetworkClass');
