@@ -1,6 +1,6 @@
 {
   "name": "neurons.me",
-  "version": "2.7.8",
+  "version": "2.7.9",
   "description": "A dynamic modulator system for neural networks.",
   "main": "index.js",
   "scripts": {
@@ -18,5 +18,13 @@
     "neurons.me"
   ],
   "author": "SuiGn",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+   
+  },
+  "devDependencies": {
+    "better-docs": "^2.7.2",
+    "docdash": "^2.0.2",
+    "taffydb": "^2.7.3"
+  }
 }

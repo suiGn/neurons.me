@@ -1,20 +1,38 @@
-//Library for creating neural networks in Node.js:
-//neurons.me index.js
+//Creating neural networks:
+//neurons.me/index.js
 const path = require('path');
 const fs = require('fs');
 //const thisFilePath = path.resolve(__dirname, 'index.js');
 //const readline = require('readline');
-const scripts = require('neurons.me/scripts');
-const shell = require('neurons.me/shell');
-//クラス
+//クラス 
 const Neuron = require('neurons.me/src/theNeuronClass');
 const Layer = require('neurons.me/src/LayerClass');
 const NeuralNetwork = require('neurons.me/src/NeuralNetworkClass');
-// Define paths to the JSON files
-const neuronsjson = path.join(__dirname, 'data', 'neurons.json');
-const neuralnetworksjson= path.join(__dirname, 'data', 'neuralnetworks.json');
-const layersjson = path.join(__dirname, 'data', 'layers.json');
-// Function to read from a JSON file
+//scripts
+const scripts = require('neurons.me/scripts');
+const shell = require('neurons.me/shell');
+
+/**
+ * Define paths to the JSON files
+  neuronsjson
+ */
+const neuronsjson = path.join(__dirname, './src/data', 'neurons.json');
+/**
+ * Define paths to the JSON files
+  neuralnetworksjson
+ */
+const neuralnetworksjson= path.join(__dirname, './src/data', 'neuralnetworks.json');
+/**
+ * Define paths to the JSON files
+  layersjson
+ */
+const layersjson = path.join(__dirname, 'data', './src/layers.json');
+/**
+ * Function to read from a JSON file
+ * @param {string} filePath - The path to the JSON file
+ *  
+ */
+
 function readJSON(filePath) {
   try {
     return JSON.parse(fs.readFileSync(filePath, 'utf8'));
@@ -23,6 +41,7 @@ function readJSON(filePath) {
     return []; // Return an empty array instead of null
   }
 }
+
 // Function to write to a JSON file
 function writeJSON(filePath, data) {
   try {
