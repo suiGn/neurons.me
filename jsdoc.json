@@ -4,7 +4,7 @@
   },
   "opts": {
     "destination": "./docs",
-    "template": "node_modules/better-docs"
+    "template": "./src/assets/better-docs"
   },
   "templates": {
     "cleverLinks": false,
