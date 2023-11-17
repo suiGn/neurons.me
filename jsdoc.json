@@ -18,9 +18,8 @@
         }
     },
     "better-docs": {
-        "name": "neurons.me",
-        "logo": "_._.svg",
-        "title": "neurons.me", 
+        "name": "docs.neurons.me",
+        "title": "docs.neurons.me", 
         "css": "style.css",
         "trackingCode": "tracking-code-which-will-go-to-the-HEAD",
   "hideGenerator": false,
