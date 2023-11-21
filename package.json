@@ -17,8 +17,6 @@
     "Node.js",
     "neurons.me"
   ],
-  "author": "SuiGn",
-  "license": "MIT",
   "dependencies": {
    
   },
@@ -27,5 +25,7 @@
     "docdash": "^2.0.2",
     "taffydb": "^2.7.3"
   },
+  "author": "suiGN",
+  "license": "MIT",
   "repoType": "NPM Package"
 }
