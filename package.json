@@ -6,10 +6,6 @@
   "scripts": {
     "start": "node index.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/suiGn/neurons.me"
-  },
   "keywords": [
     "NeuralNetworks",
     "DeepLearning",
@@ -25,6 +21,12 @@
     "docdash": "^2.0.2",
     "taffydb": "^2.7.3"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/suiGn/neurons.me.git"
+  },
+  "homepage": "https://www.npmjs.com/package/neurons.me",
+  "docs": "https://suiGn.github.io/neurons.me",
   "author": "suiGN",
   "license": "MIT",
   "repoType": "NPM Package"
