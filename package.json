@@ -13,9 +13,6 @@
     "Node.js",
     "neurons.me"
   ],
-  "dependencies": {
-   
-  },
   "devDependencies": {
     "better-docs": "^2.7.2",
     "docdash": "^2.0.2",
