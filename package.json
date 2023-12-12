@@ -14,9 +14,6 @@
     "neurons.me"
   ],
   "devDependencies": {
-    "better-docs": "^2.7.2",
-    "docdash": "^2.0.2",
-    "taffydb": "^2.7.3"
   },
   "repository": {
     "type": "git",
