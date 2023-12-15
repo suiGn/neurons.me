@@ -4,7 +4,7 @@
   },
   "opts": {
     "destination": "./docs",
-    "template": "./src/assets/better-docs",
+    "template": "../../../../../Sandbox/dev_tools/assets/better-docs",
     "readme": "./README.md"
   },
   "templates": {
@@ -26,7 +26,7 @@
   "hideGenerator": false,
         "navLinks": [
           {
-            "label": "all.This @Packages ",
+            "label": "All.This",
             "href": "https://suign.github.io/all.this/"
         },
             {
@@ -34,8 +34,8 @@
                 "href": "https://github.com/suiGn/neurons.me"
             },
             {
-                "label": "Start",
-                "href": "https://neurons.me"
+                "label": "Home",
+                "href": "https://suign.github.io"
             }
         ]
     }
