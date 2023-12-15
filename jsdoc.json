@@ -24,20 +24,28 @@
         "css": "style.css",
         "trackingCode": "-",
   "hideGenerator": false,
-        "navLinks": [
-          {
-            "label": "All.This",
-            "href": "https://suign.github.io/all.this/"
-        },
-            {
-                "label": "Github",
-                "href": "https://github.com/suiGn/neurons.me"
-            },
-            {
-                "label": "Home",
-                "href": "https://suign.github.io"
-            }
-        ]
-    }
+  "navLinks": [
+    {
+      "label": "All.This",
+      "href": "https://suign.github.io/all.this/"
+  },
+  {
+    "label": "@Packages",
+    "href": "https://suign.github.io/pages/@packages.html"
+},
+      {
+          "label": "Github",
+          "href": "https://github.com/suiGn/cleaker"
+      },
+      {
+          "label": "Cleak .me",
+          "href": "https://cleaker.me"
+      },
+      {
+          "label": "Home",
+          "href": "https://www.neurons.me/this"
+      }
+  ]
+}
 }
 }
