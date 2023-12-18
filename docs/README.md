@@ -20,7 +20,7 @@ const neurons = require('neurons.me');
 
 
 
-# Neural Network Creation with neurons.me 💪🧠🚀
+# Neural Network Creation with neurons.me
 This README provides a demonstration of how to use the neurons.me library to **create a neural network with 10 layers, each containing 10 neurons.** We'll define the neurons with specific **weights, biases, and activation functions.**
 
 This code will print details of each neuron, layer, and the entire neural network to the console. It will provide insights into the structure and components of the neural network, including neurons' weights, biases, activation functions, and any other properties defined in your `Neuron` class.
