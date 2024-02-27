@@ -1,6 +1,6 @@
 {
   "name": "neurons.me",
-  "version": "2.8.0",
+  "version": "2.8.9",
   "description": "A dynamic modulator system for neural networks.",
   "main": "index.js",
   "scripts": {
