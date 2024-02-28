@@ -53,6 +53,22 @@ neuralNetwork.addLayer(layer);
 // Utilize the neural network within the all.this ecosystem for enhanced data processing and analysis
 ```
 
+**Modularity and Independence**: Each module within the neurons.me ecosystem is designed to function independently yet possesses the inherent capability to integrate with other modules, forming more complex systems. MonadLisa leverages this principle, demonstrating the power of modular design and the synergistic potential of these modules when combined.
+
+Please refer to https://neurons.me to learn more about the whole ecosystem.
+
+### Neurons.me Utils Docs:
+
+**[neurons.me](https://suign.github.io/neurons.me/)** - **[all.this](https://suign.github.io/all.this/)** - **[cleaker](https://suign.github.io/cleaker)** - **[v.path](https://suign.github.io/v.path/)** -**[netget](https://suign.github.io/netget/)** -**[i.mlearning](https://suign.github.io/i.mLearning/)** - **[Tetragrammaton](https://suign.github.io/Tetragrammaton/)** -
+
+### Neuros.me All.This DataFormatters Docs:
+
+**[this.me](https://suign.github.io/this.me) - [this.pixelgrid](https://suign.github.io/PixelGrid/) - [this.audio](https://suign.github.io/this.audio) - [this.text](https://suign.github.io/this.text) - [this.wallet](https://suign.github.io/this.wallet) -[this.img](https://suign.github.io/this.img) - [this.pixel](https://suign.github.io/Pixels) - [be.this](https://suign.github.io/be.this) - [this.DOM](https://suign.github.io/this.DOM) - [this.env](https://suign.github.io/this.env/) - [this.GUI](https://suign.github.io/this.GUI) -[this.be ](https://suign.github.io/this.be)-[this.video](https://suign.github.io/this.video) -[this.atom ](https://suign.github.io/this.atom)- [this.dictionaries](https://suign.github.io/this.dictionaries/)**
+
+### Neurons.me Glossary: 
+
+visit: [Neurons.me Glossary](Glossary.md)
+
 ## Looking Forward
 
 As we continue to develop neurons.me, our goal is to establish a transparent, adaptive, and impactful framework that not only stands on its own in the realm of neural network development but also complements and extends the functionalities within the all.this library. Stay connected for future updates and enhancements.
