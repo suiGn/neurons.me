@@ -2,19 +2,22 @@
 
 ## Introduction to neurons.me
 
+Learn more about the neurons.me ecosystem at: https://neurons.me
+
 Welcome to neurons.me, a versatile and modular framework designed for the creation and management of neural network components. This framework serves as a cornerstone for building decentralized neural networks, offering developers the ability to define and orchestrate artificial neurons, neural networks, and layers with extensive customization options in JavaScript.
 
 ## Development Status
 
-**In Active Development and Exploration**: neurons.me is currently in the experimental phase, with its features and core functionalities under continuous refinement. Given its developmental nature, aspects of the framework are subject to change. However, the foundational vision and its operational relationship with the all.this library remain steadfast, aiming to provide a robust platform for neural network development and integration.
+**In Active Development and Exploration**: neurons.me is currently in the experimental phase, with its features and core functionalities under continuous refinement. Given its developmental nature, aspects of the framework are subject to change. However, the foundational vision and its operational relationship with the [all.this](https://www.npmjs.com/package/all.this) library remain steadfast, aiming to provide a robust platform for neural network development and integration.
 
-## Vision and Connection with all.this
+### Integration with all.this and i.mlearning
 
-neurons.me is envisioned to seamlessly integrate with the all.this library, establishing a symbiotic relationship where neurons.me enhances the data structuring and processing capabilities of all.this with advanced neural network functionalities. This integration aims to:
+- **Seamless Connection**: Neurons.me is built to work in tandem with [all.this](https://neurons.me/all-this), leveraging its data structuring benefits to provide a robust foundation for neural network training and inference.
+- **Collaboration with i.mlearning**: The library is designed to complement [i.mlearning](https://mlearning.studio/), an experimental module aimed at preparing and organizing data for efficient machine learning, particularly within the neurons.me framework.
 
-- **Enhance Data Processing**: Leverage neurons.me within the all.this ecosystem to process and analyze structured data using advanced neural network models, enriching the data insights and interactions within the all.this framework.
-- **Modular Neural Components**: Facilitate the creation of modular and customizable neural components in all.this, allowing for sophisticated neural network architectures that can evolve and adapt within the decentralized networks fostered by all.this.
-- **Unified Framework**: Create a cohesive environment where neural networks and structured data coexist, enabling developers to harness the combined power of structured data management and neural computation.
+By integrating neurons.me with these modules, developers can harness a unified approach to data processing, neural network construction, and machine learning, paving the way for innovative solutions in data analysis and interpretation.
+
+For more detailed information and insights into the integration and capabilities of neurons.me, please visit [neurons.me](https://neurons.me/), [mlearning.studio](https://mlearning.studio/), and [neurons.me/all-this](https://neurons.me/all-this).
 
 ## Installation
 
@@ -56,8 +59,6 @@ As we continue to develop neurons.me, our goal is to establish a transparent, ad
 
 Engage with us, contribute, or raise issues as we collectively shape neurons.me to be an integral part of the neural network and data processing communities within the all.this ecosystem.
 
-<img src="./src/logo.svg" alt="SVG Image" width="123" height="123" style="width123px; height:123px;">
-
 ## License & Policies
 - **License**: MIT License (see LICENSE for details).
 - **Privacy Policy**: Respects user privacy; no collection/storage of personal data.
@@ -67,7 +68,10 @@ Engage with us, contribute, or raise issues as we collectively shape neurons.me 
 We're always interested in hearing about your experiences with our package. If you have any suggestions for improvements, or if you've created something cool with our package, we'd love to hear from you!
 You can get in touch with us in the following ways:
 Email: admin@neurons.me
-Instagram: @jabella.e
+Instagram: @neurons.me
+
+Website: https://neurons.me
+
 We're also interested in understanding how our package is being used. If you're willing to share, please take a moment to reach over.
 
 Please note that your privacy is very important to us. Any information you provide will be kept confidential and will be used solely to help us improve our package.

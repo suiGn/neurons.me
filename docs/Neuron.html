@@ -1,5 +1,3 @@
-
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -7,7 +5,7 @@
   -
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>docs.neurons.me index.js</title>
+  <title>docs.neurons.me Neuron</title>
 
   <script src="https://cdn.jsdelivr.net/gh/google/code-prettify@master/loader/run_prettify.js"></script>
   <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
@@ -120,49 +118,395 @@
         <div class="core" id="main-content-wrapper">
             <div class="content">
                 <header class="page-title">
-                    <p>Source</p>
-                    <h1>index.js</h1>
+                    <p>Class</p>
+                    <h1>Neuron</h1>
                 </header>
                 
 
 
 
+
+<section>
+
+<header>
     
-    <section>
-        <article>
-            <pre class="prettyprint source linenums"><code>/*index.js
-ⓝⓔⓤⓡⓞⓝⓢ.ⓜⓔ
-🆂🆄🅸🅶🅽                                                                                                            
---------------------------------
-Build, manage and run your neural networks.
-For more information, visit: https://neurons.me*/
+        <h2><span class="attribs"><span class="type-signature"></span></span>Neuron<span class="signature">(options)</span><span class="type-signature"></span></h2>
+        
+            <div class="class-description">Class representing a single neuron.</div>
+        
+    
+</header>
 
-// In neurons.me/index.js
+<article>
+    <div class="container-overview">
+    
+        
+            <div class='vertical-section'>
+                <div class="members">
+                    <div class="member">
+                        <div class=name>
+                            <span class="tag">Constructor</span>
+                        </div>
+                        
 
-/**
- * @module neurons
- * @description Exports the main classes of the neurons.me library.
- */
 
-import Neuron from './src/Neuron.js';
-import Layer from './src/Layer.js';
-import NeuralNetwork from './src/NeuralNetwork.js';
+    
+    <h4 class="name" id="Neuron">
+        <a class="href-link" href="#Neuron">#</a>
+        
+        <span class="code-name">
+            
+                new Neuron<span class="signature">(options)</span><span class="type-signature"></span>
+            
+        </span>
+    </h4>
+    
 
-/**
- * The main export object of neurons.me package.
- * @type {Object}
- */
-const neurons = {
-  Neuron,
-  Layer,
-  NeuralNetwork
-};
+    
+    
+    <div class="description">
+        Create a neuron.
+    </div>
+    
 
-export default neurons;
-console.log("neurons.me loaded;")
-</code></pre>
-        </article>
-    </section>
+
+
+
+
+
+
+
+
+    <h5>Parameters:</h5>
+    
+<div class="table-container">
+    <table class="params table">
+        <thead>
+        <tr>
+            
+            <th>Name</th>
+            
+
+            <th>Type</th>
+
+            
+
+            
+
+            <th class="last">Description</th>
+        </tr>
+        </thead>
+
+        <tbody>
+        
+
+            
+<tr class="deep-level-0">
+  
+      <td class="name"><code>options</code></td>
+  
+
+  <td class="type">
+  
+      
+<code class="param-type">Object</code>
+
+
+  
+  </td>
+
+  
+
+  
+
+  <td class="description last">The neuron options.</td>
+</tr>
+
+
+        
+        </tbody>
+    </table>
+</div>
+
+
+
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+        <p class="tag-source">
+            <a href="src_Neuron.js.html" class="button">View Source</a>
+            <span>
+                <a href="src_Neuron.js.html">src/Neuron.js</a>, <a href="src_Neuron.js.html#line6">line 6</a>
+            </span>
+        </p>
+    
+</dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                    </div>
+                </div>
+            </div>
+        
+    
+    </div>
+    
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+        <div class='vertical-section'>
+            <h1>Methods</h1>
+            <div class="members">
+            
+                <div class="member">
+
+
+    
+    <h4 class="name" id=".createNeuron">
+        <a class="href-link" href="#.createNeuron">#</a>
+        
+            
+                <span class='tag'>static</span>
+            
+        
+        <span class="code-name">
+            
+                createNeuron<span class="signature">(options)</span><span class="type-signature"> &rarr; {<a href="Neuron.html">Neuron</a>}</span>
+            
+        </span>
+    </h4>
+    
+
+    
+    
+    <div class="description">
+        Create a neuron with specified options.
+    </div>
+    
+
+
+
+
+
+
+
+
+
+    <h5>Parameters:</h5>
+    
+<div class="table-container">
+    <table class="params table">
+        <thead>
+        <tr>
+            
+            <th>Name</th>
+            
+
+            <th>Type</th>
+
+            
+
+            
+
+            <th class="last">Description</th>
+        </tr>
+        </thead>
+
+        <tbody>
+        
+
+            
+<tr class="deep-level-0">
+  
+      <td class="name"><code>options</code></td>
+  
+
+  <td class="type">
+  
+      
+<code class="param-type">Object</code>
+
+
+  
+  </td>
+
+  
+
+  
+
+  <td class="description last">The neuron options.</td>
+</tr>
+
+
+        
+        </tbody>
+    </table>
+</div>
+
+
+
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    
+
+    
+
+    
+        <p class="tag-source">
+            <a href="src_Neuron.js.html" class="button">View Source</a>
+            <span>
+                <a href="src_Neuron.js.html">src/Neuron.js</a>, <a href="src_Neuron.js.html#line20">line 20</a>
+            </span>
+        </p>
+    
+</dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class='columns method-parameter'>
+        <div class="column is-2"><label>Returns:</label></div>
+        <div class="column is-10">
+            
+                    
+
+<div class="columns">
+    
+    <div class='param-desc column is-7'>A new Neuron instance.</div>
+    
+    
+    <div class='column is-5 has-text-left'>
+        <label>Type: </label>
+        
+<code class="param-type"><a href="Neuron.html">Neuron</a></code>
+
+
+    </div>
+    
+</div>
+
+                
+        </div>
+    </div>
+
+
+
+
+</div>
+            
+            </div>
+        </div>
+    
+
+    
+
+    
+</article>
+
+</section>
 
 
 

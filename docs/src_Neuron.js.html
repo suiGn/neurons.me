@@ -7,7 +7,7 @@
   -
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>docs.neurons.me index.js</title>
+  <title>docs.neurons.me src/Neuron.js</title>
 
   <script src="https://cdn.jsdelivr.net/gh/google/code-prettify@master/loader/run_prettify.js"></script>
   <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
@@ -121,7 +121,7 @@
             <div class="content">
                 <header class="page-title">
                     <p>Source</p>
-                    <h1>index.js</h1>
+                    <h1>src/Neuron.js</h1>
                 </header>
                 
 
@@ -130,37 +130,34 @@
     
     <section>
         <article>
-            <pre class="prettyprint source linenums"><code>/*index.js
-ⓝⓔⓤⓡⓞⓝⓢ.ⓜⓔ
-🆂🆄🅸🅶🅽                                                                                                            
---------------------------------
-Build, manage and run your neural networks.
-For more information, visit: https://neurons.me*/
-
-// In neurons.me/index.js
+            <pre class="prettyprint source linenums"><code>// Inside src/Neuron.js
 
 /**
- * @module neurons
- * @description Exports the main classes of the neurons.me library.
+ * Class representing a single neuron.
  */
-
-import Neuron from './src/Neuron.js';
-import Layer from './src/Layer.js';
-import NeuralNetwork from './src/NeuralNetwork.js';
-
-/**
- * The main export object of neurons.me package.
- * @type {Object}
- */
-const neurons = {
-  Neuron,
-  Layer,
-  NeuralNetwork
-};
-
-export default neurons;
-console.log("neurons.me loaded;")
-</code></pre>
+class Neuron {
+    /**
+     * Create a neuron.
+     * @param {Object} options - The neuron options.
+     */
+    constructor(options) {
+      // Initialization code
+    }
+  
+    /**
+     * Create a neuron with specified options.
+     * @param {Object} options - The neuron options.
+     * @return {Neuron} A new Neuron instance.
+     */
+    static createNeuron(options) {
+      return new Neuron(options);
+    }
+  
+    // Instance methods...
+  }
+  
+  export default Neuron;
+  </code></pre>
         </article>
     </section>
 
