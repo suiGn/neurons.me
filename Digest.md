@@ -7,3 +7,8 @@ Calculate current loss (forward propagation)
 Calculate current gradient (backward propagation)
 Update parameters (gradient descent)
 You often build 1-3 separately and integrate them into one function we call model().
+
+
+
+#1c2c2b
+
