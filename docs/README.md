@@ -1,4 +1,4 @@
-<img src="https://suign.github.io/neurons.me/neurons_logo.png" alt="SVG Image" width="123" height="123" style="width123px; height:123px;">
+<img src="https://suign.github.io/neurons.me/neurons_logo.png" alt="neurons.me logo" width="123" height="123" style="width123px; height:123px;">
 
 ## Introduction to neurons.me
 
