@@ -64,7 +64,7 @@ Please refer to https://neurons.me to learn more about the whole ecosystem.
 **[this.me](https://suign.github.io/this.me) - [this.pixelgrid](https://suign.github.io/PixelGrid/) - [this.audio](https://suign.github.io/this.audio) - [this.text](https://suign.github.io/this.text) - [this.wallet](https://suign.github.io/this.wallet) -[this.img](https://suign.github.io/this.img) - [this.pixel](https://suign.github.io/Pixels) - [be.this](https://suign.github.io/be.this) - [this.DOM](https://suign.github.io/this.DOM) - [this.env](https://suign.github.io/this.env/) - [this.GUI](https://suign.github.io/this.GUI) -[this.be ](https://suign.github.io/this.be)-[this.video](https://suign.github.io/this.video) -[this.atom ](https://suign.github.io/this.atom)- [this.dictionaries](https://suign.github.io/this.dictionaries/)**
 
 ### Neurons.me Glossary: 
-visit: [Neurons.me Glossary](https://neurons.me/Glossary)
+visit: [Neurons.me Glossary](https://suign.github.io/neurons.me/Glossary)
 
 ## Looking Forward
 
