@@ -3,7 +3,6 @@
 ## Global Glossary for the neurons.me Ecosystem
 
 ### A
-
 - **[all.this](https://suign.github.io/all.this/)**: A comprehensive framework within the neurons.me ecosystem, facilitating the standardization and structuring of web elements and data for neural network processing.
 - **API (Application Programming Interface)**: A set of rules and protocols that allows different software entities to communicate with each other within the neurons.me ecosystem.
 - 
