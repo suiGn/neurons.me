@@ -14,18 +14,6 @@ visit: https://neurons.me to learn more.
 
 **Welcome to neurons.me,** a versatile and modular framework designed for the creation and management of neural network components. This framework serves as a cornerstone for building decentralized neural networks, offering developers the ability to define and orchestrate artificial neurons, neural networks, and layers with extensive customization options in JavaScript.
 
-
-
-**In Active Development and Exploration**: neurons.me is currently in the experimental phase, with its features and core functionalities under continuous refinement. Given its developmental nature, aspects of the framework are subject to change. However, the foundational vision and its operational relationship with the [all.this](https://www.npmjs.com/package/all.this) library remain steadfast, aiming to provide a robust platform for neural network development and integration.
-
-### Integration with all.this and i.mlearning
-
-- **Seamless Connection**: Neurons.me is built to work in tandem with [all.this](https://neurons.me/all-this), leveraging its data structuring benefits to provide a robust foundation for neural network training and inference.
-
-By integrating **neurons.me** with these modules, developers can harness a unified approach to data processing, neural network construction, and machine learning, paving the way for innovative solutions in data analysis and interpretation.
-
-For more detailed information and insights into the integration and capabilities of neurons.me, please visit [neurons.me](https://neurons.me/).
-
 ## Installation
 
 Integrate neurons.me into your project with ease:
@@ -34,11 +22,15 @@ Integrate neurons.me into your project with ease:
 npm i neurons.me
 ```
 
-## Basic Usage and all.this Integration
+# Basic Usage and all.this Integration
 
-**Modularity and Independence**: Each module within the **neurons.me** ecosystem is designed to function independently yet possesses the inherent capability to integrate with other modules, forming more complex systems. 
+**neurons.me** is built to work in tandem with [all.this](https://neurons.me/all-this), leveraging its data structuring benefits to provide a robust foundation for neural network training and inference.
 
-Please refer to https://neurons.me to learn more about the whole ecosystem.
+**Modularity and Independence**: Each module within the **neurons.me** ecosystem is designed to function independently yet possesses the inherent capability to integrate with other modules, forming more complex systems. By integrating **neurons.me** with these modules, developers can harness a unified approach to data processing, **neural network construction**, and machine learning.
+
+**Please refer** to https://neurons.me to learn more about the whole ecosystem.
+
+
 
 ## Looking Forward
 
