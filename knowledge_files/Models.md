@@ -2,15 +2,12 @@
 * **Define the model structure** (such as number of input features)
 * **Initialize the model's parameters**
 
-
-
 ## Loop:
-
 * Calculate current loss (**forward propagation**)
 * Calculate current gradient (**backward propagation**)
 * Update parameters (**gradient descent**)
 
-  ##### You often build 1-3 separately and integrate them into one function we call model().
+##### You often build 1-3 separately and integrate them into one function we call model().
 
 #### +++AVOIDING LOOPS+++
 ## SHORT TERM , LATE TERM, LONG TERM, MIND AT LARGE.
